@@ -1,6 +1,6 @@
 ﻿namespace MyMvvm.Phone {
-    using Utils.Threading;
-    using Utils.Windows;
+    using WpfHelpers.Threading;
+    using WpfHelpers.Windows;
 
 
     /// <summary>

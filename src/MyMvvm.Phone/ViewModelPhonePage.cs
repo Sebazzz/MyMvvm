@@ -7,7 +7,7 @@
     using Microsoft.Phone.Controls;
     using Microsoft.Phone.Shell;
     using TombstoneHelper;
-    using Utils.ServiceLocator;
+    using WpfHelpers.ServiceLocator;
 
 
     /// <summary>

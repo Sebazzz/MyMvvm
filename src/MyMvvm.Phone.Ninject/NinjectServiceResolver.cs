@@ -1,6 +1,6 @@
 ﻿namespace MyMvvm.Phone.Ninject {
     using System;
-    using Utils.ServiceLocator;
+    using WpfHelpers.ServiceLocator;
     using global::Ninject;
 
 

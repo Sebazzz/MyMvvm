@@ -1,6 +1,6 @@
 ﻿namespace MyMvvm {
     using System.Diagnostics;
-    using Utils.Collections.ObjectModel;
+    using WpfHelpers.Collections.ObjectModel;
 
 
     /// <summary>

@@ -3,8 +3,8 @@ namespace MyMvvm.Phone {
     using System.Collections.Generic;
     using System.ComponentModel;
     using System.Diagnostics;
-    using Utils.Collections.Generic;
-    using Utils.ServiceLocator;
+    using WpfHelpers.Collections.Generic;
+    using WpfHelpers.ServiceLocator;
 
 
     /// <summary>
