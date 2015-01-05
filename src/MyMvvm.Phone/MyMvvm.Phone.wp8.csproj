@@ -105,6 +105,13 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\WP7TombstoneHelper.2.5\lib\TombstoneHelper.dll</HintPath>
     </Reference>
+    <Reference Include="WpfHelpers">
+      <HintPath>..\packages\WpfHelpers.1.0.0\lib\wp8\WpfHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="WpfHelpers.Base">
+      <HintPath>..\packages\WpfHelpers.1.0.0\lib\wp8\WpfHelpers.Base.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\CommonAssemblyInfo.cs">
@@ -121,14 +128,6 @@
     <Compile Include="ViewModelPhonePage.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SDammann.Utils\src\SDammann.Utils.Base\SDammann.Utils.Base.wp8.csproj">
-      <Project>{B6024D89-6669-4139-B741-ADBFFFF2ECD5}</Project>
-      <Name>SDammann.Utils.Base.wp8</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\SDammann.Utils\src\SDammann.Utils\SDammann.Utils.wp8.csproj">
-      <Project>{0D5DC7FA-6BFA-4B3B-B8E0-0AB525AA6C4D}</Project>
-      <Name>SDammann.Utils.wp8</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MyMvvm\MyMvvm.wp8.csproj">
       <Project>{AA77BF7A-693F-4E03-A519-D521410BAAAF}</Project>
       <Name>MyMvvm.wp8</Name>
