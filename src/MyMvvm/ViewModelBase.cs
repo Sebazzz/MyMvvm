@@ -19,7 +19,11 @@
             get {
                 bool designMode;
                 if (_IsInDesignMode == null) {
+#if NET45
+                    _IsInDesignMode = designMode = Application.Current == null || Application.Current.MainWindow == null || DesignerProperties.GetIsInDesignMode(Application.Current.MainWindow);
+#else
                     _IsInDesignMode = designMode = DesignerProperties.IsInDesignTool;
+#endif
                 } else {
                     designMode = _IsInDesignMode.Value;
                 }
